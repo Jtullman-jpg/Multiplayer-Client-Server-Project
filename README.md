@@ -8,13 +8,13 @@ HOW TO RUN:
 
 SERVER:
 Compile and run with:
-- gcc -o server server.c
+- make
 - ./server
 
 CLIENTS:
 Compile and run each client with:
 
-- gcc -o client client.c
+- make
 - ./client
 
 Each client will be prompted to enter a player name.
